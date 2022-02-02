@@ -58,7 +58,8 @@ header {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(img/1.jpg);
+/*     image box */
+    background: url(https://wallpaperaccess.com/full/58330.jpg);
     background-size: cover;
     background-position: center ;
     background-attachment: fixed;
