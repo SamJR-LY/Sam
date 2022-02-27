@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #219F94;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.2em;s
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #9AD0EC;
+}
+.box{
+    position: absolute;
+    background: #219F94;
+    border-radius: 200px 80% 00px 80%;
+    height: 450px;
+    width: 500px;
+    left: 75px ;
+    top: 210px;
+    opacity: 100%;
+    transform: rotate(0deg);
+    z-index: 0;
+}
+.text{
+    z-index: 1;
+}
+.section {
+    padding-left: 300px ;
+}
+
+.main {
+    padding-left: 100px ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/1.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    z-index: 10;
+}
+.main h2{
+    position: relative;
+    top:30px ;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.main h2 span{
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    margin-top: -10px;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 800;
+}
+.main h3{
+    position: relative;
+    left: 50px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.main-btn{
+    position: relative;
+    left: 220px;
+    color: #219F94;
+    background-color: #C1DEAE;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 800;
+    display:inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    transform: scale(1.1);
+}
+.icons-s a{
+    position: relative;
+    left: 350px;
+    position: relative;
+    color: white;
+    font-size: 1.9em;
+    padding-right: 15px;
+    bottom: 20px;
+
+}
